@@ -1,1 +1,41 @@
 @import "reset";
+@import "mixins";
+
+.header {
+  @include container;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+
+.nav {
+  @include row(3em);
+}
+
+.nav__links {
+  @include row;
+}
+
+.nav__icons {
+  @include row;
+}
+
+.banner {
+  @include container;
+  @include row;
+}
+
+.banner__text {
+  max-width: 562px;
+  padding: 4em 0;
+  @include column;
+}
+
+.banner__text__paragraphs {
+  @include column;
+}
+
+.banner__image-container__image {
+  margin: 0 4em;
+  height: 400px;
+}

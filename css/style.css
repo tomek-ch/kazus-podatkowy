@@ -3,4 +3,45 @@
   margin: 0;
   padding: 0; }
 
+.header {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0; }
+
+.nav {
+  display: flex;
+  gap: 3em; }
+
+.nav__links {
+  display: flex;
+  gap: 1em; }
+
+.nav__icons {
+  display: flex;
+  gap: 1em; }
+
+.banner {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  gap: 1em; }
+
+.banner__text {
+  max-width: 562px;
+  padding: 4em 0;
+  display: flex;
+  gap: 1em;
+  flex-direction: column; }
+
+.banner__text__paragraphs {
+  display: flex;
+  gap: 1em;
+  flex-direction: column; }
+
+.banner__image-container__image {
+  margin: 0 4em;
+  height: 400px; }
+
 /*# sourceMappingURL=style.css.map */

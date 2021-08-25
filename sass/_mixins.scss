@@ -1,0 +1,14 @@
+@mixin row($gap: 1em) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin column($gap: 1em) {
+  @include row;
+  flex-direction: column;
+}
+
+@mixin container {
+  max-width: 1300px;
+  margin: auto;
+}
