@@ -8,7 +8,8 @@ a {
   color: unset; }
 
 .body {
-  color: #2e3838; }
+  color: #2e3838;
+  font-family: Roboto, sans-serif; }
 
 .header {
   max-width: 1300px;
