@@ -27,7 +27,7 @@
 
 .banner {
   @include container;
-  @include row;
+  @include row(0, start);
 }
 
 .banner__text {

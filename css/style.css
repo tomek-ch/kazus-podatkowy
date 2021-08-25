@@ -19,32 +19,38 @@ a {
 
 .nav {
   display: flex;
-  gap: 3em; }
+  gap: 3em;
+  align-items: center; }
 
 .nav__links {
   display: flex;
-  gap: 1em; }
+  gap: 1em;
+  align-items: center; }
 
 .nav__icons {
   display: flex;
-  gap: 1em; }
+  gap: 1em;
+  align-items: center; }
 
 .banner {
   max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 1em; }
+  gap: 0;
+  align-items: start; }
 
 .banner__text {
   max-width: 562px;
   padding: 4em 0;
   display: flex;
   gap: 1em;
+  align-items: start;
   flex-direction: column; }
 
 .banner__text__paragraphs {
   display: flex;
   gap: 1em;
+  align-items: start;
   flex-direction: column; }
 
 .banner__image-container__image {

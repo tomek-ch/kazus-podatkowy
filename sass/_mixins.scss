@@ -1,10 +1,11 @@
-@mixin row($gap: 1em) {
+@mixin row($gap: 1em, $alignment: center) {
   display: flex;
   gap: $gap;
+  align-items: $alignment;
 }
 
 @mixin column($gap: 1em) {
-  @include row;
+  @include row(1em, start);
   flex-direction: column;
 }
 
