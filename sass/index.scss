@@ -27,21 +27,38 @@
 }
 
 .banner {
+  background-color: $green1;
+}
+
+.banner__container {
   @include container;
-  @include row(0, start);
+  @include row;
 }
 
-.banner__text {
+.text-block {
   max-width: 562px;
-  padding: 4em 0;
+  @include column(2em);
+}
+
+.text-block__heading {
+  color: $white;
+  font-size: 3em;
+}
+
+.text-block__paragraphs {
   @include column;
 }
 
-.banner__text__paragraphs {
-  @include column;
+.text-block__paragraphs__p {
+  color: $gray3;
 }
 
-.banner__image-container__image {
+.text-block__paragraphs__p--highlight {
+  color: $white;
+  font-weight: bold;
+}
+
+.banner__container__image {
   margin: 0 4em;
   height: 400px;
 }

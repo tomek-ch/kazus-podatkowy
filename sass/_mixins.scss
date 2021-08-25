@@ -5,7 +5,7 @@
 }
 
 @mixin column($gap: 1em) {
-  @include row(1em, start);
+  @include row($gap, start);
   flex-direction: column;
 }
 

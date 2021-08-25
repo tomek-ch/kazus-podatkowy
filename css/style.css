@@ -34,27 +34,40 @@ a {
   align-items: center; }
 
 .banner {
+  background-color: #025c55; }
+
+.banner__container {
   max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 0;
-  align-items: start; }
+  gap: 1em;
+  align-items: center; }
 
-.banner__text {
+.text-block {
   max-width: 562px;
-  padding: 4em 0;
+  display: flex;
+  gap: 2em;
+  align-items: start;
+  flex-direction: column; }
+
+.text-block__heading {
+  color: #ffffff;
+  font-size: 3em; }
+
+.text-block__paragraphs {
   display: flex;
   gap: 1em;
   align-items: start;
   flex-direction: column; }
 
-.banner__text__paragraphs {
-  display: flex;
-  gap: 1em;
-  align-items: start;
-  flex-direction: column; }
+.text-block__paragraphs__p {
+  color: #f1f5f5; }
 
-.banner__image-container__image {
+.text-block__paragraphs__p--highlight {
+  color: #ffffff;
+  font-weight: bold; }
+
+.banner__container__image {
   margin: 0 4em;
   height: 400px; }
 
