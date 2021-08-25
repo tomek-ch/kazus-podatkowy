@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: unset;
+  color: unset; }
+
 .body {
   color: #2e3838; }
 
