@@ -7,6 +7,10 @@ a {
   text-decoration: unset;
   color: unset; }
 
+button {
+  background-color: unset;
+  border: unset; }
+
 .header {
   border-bottom: 1px solid lightgray; }
 
