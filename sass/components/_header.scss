@@ -15,20 +15,16 @@
   @include row;
 }
 
-.nav__icons {
-  @include row;
-}
-
-.nav__icons__icon {
+.icon {
   position: relative;
 }
 
-.nav__icons__icon--highlight {
+.icon--highlight {
   @include circle(2.5em);
   background-color: $green1;
 }
 
-.nav__icons__icon__badge {
+.icon__badge {
   @include circle;
   font-size: 0.6em;
   position: absolute;

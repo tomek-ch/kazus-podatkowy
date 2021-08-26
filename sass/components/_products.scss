@@ -23,9 +23,25 @@
   width: 25%;
   text-align: center;
   margin-bottom: 5em;
+  color: $green1;
+}
+
+.product__name {
+  font-weight: bold;
+}
+
+.product__price {
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .product__image {
   width: 200px;
   margin-bottom: 1em;
+}
+
+.product__details {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
 }

@@ -24,15 +24,10 @@ a {
   gap: 2em;
   align-items: center; }
 
-.nav__icons {
-  display: flex;
-  gap: 2em;
-  align-items: center; }
-
-.nav__icons__icon {
+.icon {
   position: relative; }
 
-.nav__icons__icon--highlight {
+.icon--highlight {
   display: grid;
   place-content: center;
   width: 2.5em;
@@ -40,7 +35,7 @@ a {
   border-radius: 50%;
   background-color: #025c55; }
 
-.nav__icons__icon__badge {
+.icon__badge {
   display: grid;
   place-content: center;
   width: 1.5em;
@@ -122,11 +117,24 @@ a {
   flex-direction: column;
   width: 25%;
   text-align: center;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  color: #025c55; }
+
+.product__name {
+  font-weight: bold; }
+
+.product__price {
+  font-size: 2.5em;
+  font-weight: bold; }
 
 .product__image {
   width: 200px;
   margin-bottom: 1em; }
+
+.product__details {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2em; }
 
 .page-navigation {
   display: flex;
