@@ -59,6 +59,17 @@
   @include space-between;
   align-items: center;
   font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.basket-summary__price-section__tax {
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+.price-main {
+  font-size: 1.4em;
 }
 
 .hidden {

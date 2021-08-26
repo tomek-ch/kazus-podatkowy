@@ -5,14 +5,15 @@
 .basket-product {
   background-color: $gray3-translucent;
   width: 100%;
-  color: $green1;
+  color: $green2;
   font-weight: bold;
+  display: block;
 }
 
 .basket-product__top {
   @include space-between;
   align-items: center;
-  gap: 2em;
+  gap: 3em;
   padding: 1em;
 }
 
@@ -21,6 +22,7 @@
   padding: 1em;
   border-top: 1px solid $gray2;
   color: $black;
+  align-items: center;
 }
 
 .basket-product__bottom__price {
@@ -41,4 +43,8 @@
 .basket-product__top__left__icon {
   @include circle(3em);
   background-color: $gray3;
+}
+
+.basket-product__bottom__price__amount__main {
+  font-size: 1.2em;
 }

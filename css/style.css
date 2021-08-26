@@ -235,7 +235,16 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 1em; }
+
+.basket-summary__price-section__tax {
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.7em; }
+
+.price-main {
+  font-size: 1.4em; }
 
 .hidden {
   display: none; }
@@ -306,7 +315,16 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 1em; }
+
+.basket-summary__price-section__tax {
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.7em; }
+
+.price-main {
+  font-size: 1.4em; }
 
 .hidden {
   display: none; }
@@ -314,14 +332,15 @@ button {
 .basket-product {
   background-color: #f1f5f540;
   width: 100%;
-  color: #025c55;
-  font-weight: bold; }
+  color: #0a655e;
+  font-weight: bold;
+  display: block; }
 
 .basket-product__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2em;
+  gap: 3em;
   padding: 1em; }
 
 .basket-product__bottom {
@@ -329,7 +348,8 @@ button {
   justify-content: space-between;
   padding: 1em;
   border-top: 1px solid #80888833;
-  color: #2e3838; }
+  color: #2e3838;
+  align-items: center; }
 
 .basket-product__bottom__price {
   font-weight: 100; }
@@ -350,6 +370,9 @@ button {
   height: 3em;
   border-radius: 50%;
   background-color: #f1f5f5; }
+
+.basket-product__bottom__price__amount__main {
+  font-size: 1.2em; }
 
 .body {
   color: #2e3838;
