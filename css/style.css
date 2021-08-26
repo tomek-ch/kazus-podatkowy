@@ -236,6 +236,9 @@ button {
   align-items: center;
   font-weight: bold; }
 
+.hidden {
+  display: none; }
+
 .cta-btn {
   background-color: #d1b352;
   color: #ffffff;
