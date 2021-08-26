@@ -1,4 +1,4 @@
-@mixin row($gap: 1em, $alignment: center) {
+@mixin row($gap: 2em, $alignment: center) {
   display: flex;
   gap: $gap;
   align-items: $alignment;

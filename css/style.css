@@ -16,17 +16,17 @@ a {
 
 .nav {
   display: flex;
-  gap: 3em;
+  gap: 4em;
   align-items: center; }
 
 .nav__links {
   display: flex;
-  gap: 1em;
+  gap: 2em;
   align-items: center; }
 
 .nav__icons {
   display: flex;
-  gap: 1em;
+  gap: 2em;
   align-items: center; }
 
 .banner {
@@ -42,7 +42,7 @@ a {
   max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 1em;
+  gap: 2em;
   align-items: center; }
 
 .text-block {
