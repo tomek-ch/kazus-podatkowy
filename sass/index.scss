@@ -32,6 +32,8 @@
   background-size: 448px;
   background-repeat: no-repeat;
   background-position: 5% 100%;
+  position: relative;
+  padding: 5em 0;
 }
 
 .banner__container {
@@ -64,5 +66,8 @@
 
 .banner__container__image {
   margin: 0 4em;
-  height: 400px;
+  height: 600px;
+  position: absolute;
+  top: 2em;
+  right: 15em;
 }
