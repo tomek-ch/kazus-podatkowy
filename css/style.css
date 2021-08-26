@@ -51,7 +51,6 @@ a {
   background-size: 448px;
   background-repeat: no-repeat;
   background-position: 5% 100%;
-  position: relative;
   padding: 5em 0; }
 
 .banner__container {
@@ -59,7 +58,8 @@ a {
   margin: auto;
   display: flex;
   gap: 2em;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .text-block {
   max-width: 562px;
@@ -86,11 +86,11 @@ a {
   font-weight: bold; }
 
 .banner__container__image {
-  margin: 0 4em;
   height: 600px;
   position: absolute;
-  top: 0;
-  right: 15em; }
+  top: -5em;
+  right: 0;
+  right: 0; }
 
 .body {
   color: #2e3838;

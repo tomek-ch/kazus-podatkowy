@@ -7,13 +7,13 @@
   background-size: 448px;
   background-repeat: no-repeat;
   background-position: 5% 100%;
-  position: relative;
   padding: 5em 0;
 }
 
 .banner__container {
   @include container;
   @include row;
+  position: relative;
 }
 
 .text-block {
@@ -40,9 +40,9 @@
 }
 
 .banner__container__image {
-  margin: 0 4em;
   height: 600px;
   position: absolute;
-  top: 0;
-  right: 15em;
+  top: -5em;
+  right: 0;
+  right: 0;
 }
