@@ -12,10 +12,9 @@
 }
 
 .products {
+  @include space-between;
   margin-top: 5em;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .product {

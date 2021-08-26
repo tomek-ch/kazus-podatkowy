@@ -29,3 +29,8 @@
   @include square($size);
   border-radius: 50%;
 }
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+}

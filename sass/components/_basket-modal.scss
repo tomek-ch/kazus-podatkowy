@@ -1,6 +1,12 @@
 @import "../mixins";
 @import "../variables";
 
+@mixin basket-container {
+  background-color: $white;
+  padding: 1.5em;
+  max-width: 20em;
+}
+
 .main {
   position: relative;
   height: fit-content;
@@ -22,6 +28,41 @@
 .basket-modal-bg__container__body {
   width: fit-content;
   margin-left: auto;
-  background-color: $white;
-  padding: 1.5em;
+}
+
+.basket-top {
+  @include basket-container;
+  @include space-between;
+}
+
+.basket-products {
+  @include basket-container;
+}
+
+.basket-product__top {
+  @include space-between;
+  align-items: center;
+}
+
+.basket-product__bottom {
+  @include space-between;
+}
+
+.basket-product__top__left {
+  display: flex;
+  gap: 1em;
+}
+
+.basket-product__top__left__name {
+  width: 100%;
+  max-width: 10em;
+}
+
+.basket-summary {
+  @include basket-container;
+  border-top: 1px solid $gray2;
+}
+
+.basket-summary__price-section {
+  @include space-between;
 }

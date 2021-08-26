@@ -1,9 +1,12 @@
 @import "../mixins";
 
 .header {
+  border-bottom: 1px solid lightgray;
+}
+
+.header__container {
   @include container;
-  display: flex;
-  justify-content: space-between;
+  @include space-between;
   padding: 2em 0;
 }
 
