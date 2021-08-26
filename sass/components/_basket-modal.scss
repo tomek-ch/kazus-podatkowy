@@ -1,0 +1,27 @@
+@import "../mixins";
+@import "../variables";
+
+.main {
+  position: relative;
+  height: fit-content;
+}
+
+.basket-modal-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.397);
+  z-index: 2;
+  top: 0;
+}
+
+.basket-modal-bg__container {
+  @include container;
+}
+
+.basket-modal-bg__container__body {
+  width: fit-content;
+  margin-left: auto;
+  background-color: $white;
+  padding: 1.5em;
+}
