@@ -29,6 +29,22 @@ a {
   gap: 2em;
   align-items: center; }
 
+.nav__icons__icon {
+  position: relative; }
+
+.nav__icons__icon__badge {
+  font-size: 0.6em;
+  position: absolute;
+  right: -1em;
+  top: -0.5em;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #025c55;
+  border-radius: 50%;
+  color: #ffffff;
+  display: grid;
+  place-content: center; }
+
 .banner {
   background-color: #025c55;
   background-image: url("/assets/Path 323.svg");
