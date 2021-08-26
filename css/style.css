@@ -34,7 +34,11 @@ a {
   align-items: center; }
 
 .banner {
-  background-color: #025c55; }
+  background-color: #025c55;
+  background-image: url("/assets/Path 323.svg");
+  background-size: 448px;
+  background-repeat: no-repeat;
+  background-position: 5% 100%; }
 
 .banner__container {
   max-width: 1300px;
