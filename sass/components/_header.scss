@@ -8,6 +8,7 @@
   @include container;
   @include space-between;
   padding: 2em;
+  gap: 2em;
 }
 
 .nav {
@@ -43,12 +44,16 @@
   color: $white;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .nav__links--secondary {
     display: none;
   }
 
-  .nav__links {
-    gap: 1em;
+  .hamburger {
+    display: block;
   }
 }
