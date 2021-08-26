@@ -1,0 +1,48 @@
+@import "../mixins";
+@import "../variables";
+
+.banner {
+  background-color: $green1;
+  background-image: url("/assets/Path\ 323.svg");
+  background-size: 448px;
+  background-repeat: no-repeat;
+  background-position: 5% 100%;
+  position: relative;
+  padding: 5em 0;
+}
+
+.banner__container {
+  @include container;
+  @include row;
+}
+
+.text-block {
+  max-width: 562px;
+  @include column(2em);
+}
+
+.text-block__heading {
+  color: $white;
+  font-size: 3em;
+}
+
+.text-block__paragraphs {
+  @include column;
+}
+
+.text-block__paragraphs__p {
+  color: $gray3;
+}
+
+.text-block__paragraphs__p--highlight {
+  color: $white;
+  font-weight: bold;
+}
+
+.banner__container__image {
+  margin: 0 4em;
+  height: 600px;
+  position: absolute;
+  top: 2em;
+  right: 15em;
+}
