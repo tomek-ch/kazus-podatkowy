@@ -22,12 +22,12 @@
   width: 25%;
   text-align: center;
   margin-top: 10em;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   color: $green1;
   background-color: $white;
   position: relative;
   padding-top: 5em;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 .product:hover {
@@ -55,6 +55,11 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 1.2em;
+}
+
+.product__tax {
+  font-weight: 100;
+  margin-bottom: 0.8em;
 }
 
 @media (max-width: 1200px) {

@@ -153,12 +153,12 @@ button {
   width: 25%;
   text-align: center;
   margin-top: 10em;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   color: #025c55;
   background-color: #ffffff;
   position: relative;
   padding-top: 5em;
-  padding-bottom: 1em; }
+  padding-bottom: 1.5em; }
 
 .product:hover {
   outline: 1px solid #d1b352;
@@ -181,6 +181,10 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 1.2em; }
+
+.product__tax {
+  font-weight: 100;
+  margin-bottom: 0.8em; }
 
 @media (max-width: 1200px) {
   .product {
