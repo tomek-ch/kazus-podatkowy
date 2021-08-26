@@ -33,7 +33,16 @@
 .basket-top {
   @include basket-container;
   @include space-between;
+  align-items: flex-end;
+  padding-right: 0;
+  padding-top: 0;
   padding-bottom: 0;
+  position: relative;
+}
+
+.close-btn {
+  @include square(3em);
+  background-color: $green1;
 }
 
 .basket-products {
@@ -52,6 +61,7 @@
 .basket-product__top__left {
   display: flex;
   gap: 1em;
+  align-items: center;
 }
 
 .basket-product__top__left__name {

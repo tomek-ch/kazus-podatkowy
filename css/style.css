@@ -188,7 +188,18 @@ button {
   max-width: 20em;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 0; }
+  align-items: flex-end;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative; }
+
+.close-btn {
+  display: grid;
+  place-content: center;
+  width: 3em;
+  height: 3em;
+  background-color: #025c55; }
 
 .basket-products {
   background-color: #ffffff;
@@ -206,7 +217,8 @@ button {
 
 .basket-product__top__left {
   display: flex;
-  gap: 1em; }
+  gap: 1em;
+  align-items: center; }
 
 .basket-product__top__left__name {
   width: 100%;
