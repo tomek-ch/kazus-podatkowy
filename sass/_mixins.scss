@@ -13,3 +13,15 @@
   max-width: 1300px;
   margin: auto;
 }
+
+@mixin center {
+  display: grid;
+  place-content: center;
+}
+
+@mixin circle($size: 1.5em) {
+  @include center;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}

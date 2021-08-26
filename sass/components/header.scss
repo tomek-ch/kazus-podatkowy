@@ -23,16 +23,17 @@
   position: relative;
 }
 
+.nav__icons__icon--highlight {
+  @include circle(2.5em);
+  background-color: $green1;
+}
+
 .nav__icons__icon__badge {
+  @include circle;
   font-size: 0.6em;
   position: absolute;
   right: -1em;
   top: -0.5em;
-  width: 1.5em;
-  height: 1.5em;
   background-color: $green1;
-  border-radius: 50%;
   color: $white;
-  display: grid;
-  place-content: center;
 }
