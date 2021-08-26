@@ -18,7 +18,7 @@
 }
 
 .product {
-  @include column(1em, center);
+  @include column(0, center);
   width: 25%;
   text-align: center;
   margin-bottom: 5em;
