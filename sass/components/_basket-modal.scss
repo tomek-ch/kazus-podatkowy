@@ -43,6 +43,7 @@
 .close-btn {
   @include square(3em);
   background-color: $green1;
+  cursor: pointer;
 }
 
 .basket-products {

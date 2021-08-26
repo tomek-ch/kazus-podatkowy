@@ -12,14 +12,20 @@
 
 .nav {
   @include row(4em);
+  font-weight: 100;
 }
 
 .nav__links {
   @include row;
 }
 
+.nav__links__link:hover {
+  color: $green1;
+}
+
 .icon {
   position: relative;
+  cursor: pointer;
 }
 
 .icon--highlight {

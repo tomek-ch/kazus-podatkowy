@@ -24,15 +24,20 @@ button {
 .nav {
   display: flex;
   gap: 4em;
-  align-items: center; }
+  align-items: center;
+  font-weight: 100; }
 
 .nav__links {
   display: flex;
   gap: 2em;
   align-items: center; }
 
+.nav__links__link:hover {
+  color: #025c55; }
+
 .icon {
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .icon--highlight {
   display: grid;
@@ -211,7 +216,8 @@ button {
   place-content: center;
   width: 3em;
   height: 3em;
-  background-color: #025c55; }
+  background-color: #025c55;
+  cursor: pointer; }
 
 .basket-products {
   background-color: #ffffff;
