@@ -3,7 +3,7 @@
 
 .products-section {
   @include container;
-  margin-top: 5em;
+  margin-top: 8em;
 }
 
 .section-heading {
@@ -61,14 +61,14 @@
   .product {
     width: 50%;
   }
+
+  .section-heading {
+    text-align: center;
+  }
 }
 
 @media (max-width: 550px) {
   .product {
     width: 100%;
-  }
-
-  .section-heading {
-    text-align: center;
   }
 }

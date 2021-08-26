@@ -17,10 +17,10 @@ button {
 .header__container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1em;
+  padding: 0 2em;
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1em 2em;
   gap: 2em; }
 
 .nav {
@@ -82,7 +82,7 @@ button {
 .banner__container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1em;
+  padding: 0 2em;
   display: flex;
   gap: 2em;
   align-items: center;
@@ -132,8 +132,8 @@ button {
 .products-section {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1em;
-  margin-top: 5em; }
+  padding: 0 2em;
+  margin-top: 8em; }
 
 .section-heading {
   font-size: 2.5em;
@@ -184,13 +184,13 @@ button {
 
 @media (max-width: 1200px) {
   .product {
-    width: 50%; } }
-@media (max-width: 550px) {
-  .product {
-    width: 100%; }
+    width: 50%; }
 
   .section-heading {
     text-align: center; } }
+@media (max-width: 550px) {
+  .product {
+    width: 100%; } }
 .page-navigation {
   display: flex;
   gap: 0;
@@ -226,7 +226,7 @@ button {
 .basket-modal-bg__container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1em; }
+  padding: 0 2em; }
 
 .basket-modal-bg__container__body {
   width: fit-content;
@@ -307,7 +307,7 @@ button {
 .basket-modal-bg__container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1em; }
+  padding: 0 2em; }
 
 .basket-modal-bg__container__body {
   width: fit-content;
