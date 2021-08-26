@@ -4,7 +4,6 @@ const closeBasketBtn = document.querySelector(".close-btn");
 
 function toggleBasket() {
   basketModal.classList.toggle("hidden");
-  console.log("toggle!");
 }
 
 openBasketBtn.addEventListener("click", toggleBasket);
