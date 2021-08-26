@@ -33,6 +33,7 @@
 .basket-top {
   @include basket-container;
   @include space-between;
+  padding-bottom: 0;
 }
 
 .basket-products {
@@ -65,4 +66,6 @@
 
 .basket-summary__price-section {
   @include space-between;
+  align-items: center;
+  font-weight: bold;
 }

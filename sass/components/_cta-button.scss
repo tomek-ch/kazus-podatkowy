@@ -1,0 +1,10 @@
+@import "../variables";
+
+.cta-btn {
+  background-color: $yellow;
+  color: $white;
+  width: 100%;
+  padding: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
