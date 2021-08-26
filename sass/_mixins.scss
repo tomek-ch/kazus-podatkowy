@@ -4,8 +4,8 @@
   align-items: $alignment;
 }
 
-@mixin column($gap: 1em) {
-  @include row($gap, start);
+@mixin column($gap: 1em, $alignment: start) {
+  @include row($gap, $alignment);
   flex-direction: column;
 }
 
@@ -19,9 +19,13 @@
   place-content: center;
 }
 
-@mixin circle($size: 1.5em) {
+@mixin square($size: 1.5em) {
   @include center;
   width: $size;
   height: $size;
+}
+
+@mixin circle($size: 1.5em) {
+  @include square($size);
   border-radius: 50%;
 }

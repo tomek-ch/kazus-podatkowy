@@ -1,0 +1,19 @@
+@import "../mixins";
+@import "../variables";
+
+.page-navigation {
+  @include row(0);
+  color: $green3;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+.page-navigation__link {
+  @include square(2.5em);
+}
+
+.page-navigation__link--highlight {
+  background-color: $green2;
+  color: $white;
+}

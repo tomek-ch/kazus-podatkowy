@@ -1,0 +1,31 @@
+@import "../mixins";
+@import "../variables";
+
+.products-section {
+  @include container;
+  margin-top: 10em;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  color: $green1;
+}
+
+.products {
+  margin-top: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  @include column(1em, center);
+  width: 25%;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.product__image {
+  width: 200px;
+  margin-bottom: 1em;
+}
