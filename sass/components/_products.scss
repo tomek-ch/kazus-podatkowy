@@ -56,3 +56,15 @@
   letter-spacing: 0.1em;
   font-size: 1.2em;
 }
+
+@media (max-width: 1200px) {
+  .product {
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .product {
+    width: 100%;
+  }
+}
