@@ -12,7 +12,7 @@ button {
   border: unset; }
 
 .header {
-  border-bottom: 1px solid lightgray; }
+  border-bottom: 1px solid #80888833; }
 
 .header__container {
   max-width: 1200px;
@@ -202,7 +202,6 @@ button {
 .basket-top {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -222,12 +221,14 @@ button {
 .basket-products {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em; }
+  display: flex;
+  gap: 0.5em;
+  align-items: start;
+  flex-direction: column; }
 
 .basket-summary {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em;
   border-top: 1px solid #80888833; }
 
 .basket-summary__price-section {
@@ -240,6 +241,8 @@ button {
   display: none; }
 
 .cta-btn {
+  display: block;
+  text-align: center;
   background-color: #d1b352;
   color: #ffffff;
   width: 100%;
@@ -270,7 +273,6 @@ button {
 .basket-top {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -290,12 +292,14 @@ button {
 .basket-products {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em; }
+  display: flex;
+  gap: 0.5em;
+  align-items: start;
+  flex-direction: column; }
 
 .basket-summary {
   background-color: #ffffff;
   padding: 1.5em;
-  max-width: 20em;
   border-top: 1px solid #80888833; }
 
 .basket-summary__price-section {
@@ -307,14 +311,28 @@ button {
 .hidden {
   display: none; }
 
+.basket-product {
+  background-color: #f1f5f540;
+  width: 100%;
+  color: #025c55;
+  font-weight: bold; }
+
 .basket-product__top {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  gap: 2em;
+  padding: 1em; }
 
 .basket-product__bottom {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 1em;
+  border-top: 1px solid #80888833;
+  color: #2e3838; }
+
+.basket-product__bottom__price {
+  font-weight: 100; }
 
 .basket-product__top__left {
   display: flex;
@@ -324,6 +342,14 @@ button {
 .basket-product__top__left__name {
   width: 100%;
   max-width: 10em; }
+
+.basket-product__top__left__icon {
+  display: grid;
+  place-content: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #f1f5f5; }
 
 .body {
   color: #2e3838;

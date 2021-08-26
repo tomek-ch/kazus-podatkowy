@@ -2,13 +2,29 @@
 @import "../variables";
 @import "basket-modal";
 
+.basket-product {
+  background-color: $gray3-translucent;
+  width: 100%;
+  color: $green1;
+  font-weight: bold;
+}
+
 .basket-product__top {
   @include space-between;
   align-items: center;
+  gap: 2em;
+  padding: 1em;
 }
 
 .basket-product__bottom {
   @include space-between;
+  padding: 1em;
+  border-top: 1px solid $gray2;
+  color: $black;
+}
+
+.basket-product__bottom__price {
+  font-weight: 100;
 }
 
 .basket-product__top__left {
@@ -20,4 +36,9 @@
 .basket-product__top__left__name {
   width: 100%;
   max-width: 10em;
+}
+
+.basket-product__top__left__icon {
+  @include circle(3em);
+  background-color: $gray3;
 }

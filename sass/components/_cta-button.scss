@@ -1,6 +1,8 @@
 @import "../variables";
 
 .cta-btn {
+  display: block;
+  text-align: center;
   background-color: $yellow;
   color: $white;
   width: 100%;

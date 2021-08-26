@@ -4,7 +4,6 @@
 @mixin basket-container {
   background-color: $white;
   padding: 1.5em;
-  max-width: 20em;
 }
 
 .main {
@@ -48,6 +47,7 @@
 
 .basket-products {
   @include basket-container;
+  @include column(0.5em);
 }
 
 .basket-summary {
