@@ -50,26 +50,6 @@
   @include basket-container;
 }
 
-.basket-product__top {
-  @include space-between;
-  align-items: center;
-}
-
-.basket-product__bottom {
-  @include space-between;
-}
-
-.basket-product__top__left {
-  display: flex;
-  gap: 1em;
-  align-items: center;
-}
-
-.basket-product__top__left__name {
-  width: 100%;
-  max-width: 10em;
-}
-
 .basket-summary {
   @include basket-container;
   border-top: 1px solid $gray2;
