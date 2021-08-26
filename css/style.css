@@ -15,7 +15,7 @@ button {
   border-bottom: 1px solid lightgray; }
 
 .header__container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -58,13 +58,13 @@ button {
 .banner {
   background-color: #025c55;
   background-image: url("/assets/svg/bg.svg");
-  background-size: 448px;
+  background-size: 500px;
   background-repeat: no-repeat;
-  background-position: 5% 100%;
-  padding: 5em 0; }
+  background-position: 4% 60%;
+  padding: 3em 0; }
 
 .banner__container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   gap: 2em;
@@ -98,12 +98,12 @@ button {
 .banner__container__image {
   height: 600px;
   position: absolute;
-  top: -5em;
+  top: -2em;
   right: 0;
   right: 0; }
 
 .products-section {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 5em; }
 
@@ -187,7 +187,7 @@ button {
   top: 0; }
 
 .basket-modal-bg__container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto; }
 
 .basket-modal-bg__container__body {
