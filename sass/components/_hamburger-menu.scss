@@ -1,0 +1,16 @@
+@import "../variables";
+@import "../mixins";
+
+.hamburger-menu {
+  @include column;
+  background-color: $white;
+  align-items: center;
+  padding: 1em 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}

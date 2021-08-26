@@ -187,7 +187,10 @@ button {
     width: 50%; } }
 @media (max-width: 550px) {
   .product {
-    width: 100%; } }
+    width: 100%; }
+
+  .section-heading {
+    text-align: center; } }
 .page-navigation {
   display: flex;
   gap: 0;
@@ -404,6 +407,21 @@ button {
 
 .basket-product__bottom__price__amount__main {
   font-size: 1.2em; }
+
+.hamburger-menu {
+  display: flex;
+  gap: 1em;
+  align-items: start;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 1em 0;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.hidden {
+  display: none; }
 
 .body {
   color: #2e3838;
